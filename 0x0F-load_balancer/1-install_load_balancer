@@ -13,7 +13,7 @@ echo "
 
 #my config
 frontend web-frontend
-        mode tcp
+        mode http
         bind *:80
         default_backend web-backend
 

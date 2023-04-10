@@ -9,7 +9,6 @@ sudo apt-get install haproxy=2.7.\* -y
 #enable haproxy init script
 
 #configure the haproxy to forward requests to my two servers using the round-robin algorithm
-echo "
 
 
 #my config
@@ -22,7 +21,6 @@ backend web-backend
         balance roundrobin
         server 100804-web-01 100.26.165.61:80 check
         server 100804-web-02 100.25.47.254:80 check
-" >> /etc/haproxy/haproxy.cfg
 
 #restart haproxy
 service haproxy restart

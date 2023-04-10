@@ -25,4 +25,4 @@ backend web-backend
 " >> /etc/haproxy/haproxy.cfg
 
 #restart haproxy
-service haproxy restart
+sudo service haproxy restart

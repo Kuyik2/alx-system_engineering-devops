@@ -3,12 +3,9 @@
 
 #Update package list and install haproxy
 sudo apt-get update
-sudo apt-get install --no-install-recommends software-properties-common
--y
-sudo add-apt-repository ppa:vbernat/haproxy-2.7
--y
-sudo apt-get install haproxy=2.7.\*
--y
+sudo apt-get install --no-install-recommends software-properties-common -y
+sudo add-apt-repository ppa:vbernat/haproxy-2.7 -y
+sudo apt-get install haproxy=2.7.\* -y
 #enable haproxy init script
 
 #configure the haproxy to forward requests to my two servers using the round-robin algorithm

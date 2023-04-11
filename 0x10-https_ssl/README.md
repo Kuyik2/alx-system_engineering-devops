@@ -14,9 +14,8 @@ Purpose of the scripts listed below is to setup Haproxy SSL by automation
 ---
 File|Task
 ---|---
-0-https_abc
-1-world_wide_web
-2-haproxy_ssl_termination
+0-world_wide_web
+1-haproxy_ssl_termination
 
 ## Directories
 ---

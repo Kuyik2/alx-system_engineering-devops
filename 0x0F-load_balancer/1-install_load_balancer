@@ -10,10 +10,6 @@ sudo chown -R "$USER:$USER" /etc/haproxy/
 server_config=\
 "
 
-#configure the haproxy configuration file to distribute requests using a roundrobin algorithm
-server_config=\
-"
-
 frontend web-frontend
         mode http
         bind *:80
